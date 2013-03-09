@@ -5,6 +5,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Interop;
 using System.Windows.Shapes;
+using CefSharp;
 
 namespace FavApp
 {
