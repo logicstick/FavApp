@@ -6,6 +6,7 @@ using System.Windows.Input;
 using System.Windows.Interop;
 using System.Windows.Shapes;
 using CefSharp;
+using CefSharp.Wpf;
 
 namespace FavApp
 {
@@ -14,6 +15,7 @@ namespace FavApp
     /// </summary>
     public partial class MainWindow : Window
     {
+
         private const Int32 WM_SYSCOMMAND = 0x112;
 
         private HwndSource m_hwndSource;
@@ -25,6 +27,7 @@ namespace FavApp
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         protected override void OnInitialized(EventArgs e)
