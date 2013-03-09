@@ -39,6 +39,9 @@
     <Reference Include="CefSharp">
       <HintPath>..\..\..\CefSharp-1.19.0\CefSharp-1.19.0\CefSharp.dll</HintPath>
     </Reference>
+    <Reference Include="CefSharp.Example">
+      <HintPath>..\..\..\CefSharp-1.19.0\CefSharp-1.19.0\CefSharp.Example.dll</HintPath>
+    </Reference>
     <Reference Include="CefSharp.Wpf">
       <HintPath>..\..\..\CefSharp-1.19.0\CefSharp-1.19.0\CefSharp.Wpf.dll</HintPath>
     </Reference>
